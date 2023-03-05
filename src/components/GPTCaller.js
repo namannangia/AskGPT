@@ -38,27 +38,32 @@ function Caller() {
 	}
 
 	return (
-		<div id="mainDiv">
-			<div id={"upperDiv"}>
-				<input
-					type={"text"}
-					id={"myInput"}
-					placeholder={"Who is Narendra Modi?"}
-					value={txt}
-					onChange={(e) => {
-						setTxt(e.target.value);
-					}}
-				/>
-				<button
-					id={"btn"}
-					className="btn btn-success"
-					onClick={() => sendRequest()}
-				>
-					AskGPT
-				</button>
+		<div className="wrapper">
+			<h3 className="heading">AskGPT</h3>
+			<div id="mainDiv">
+				<div id={"upperDiv"}>
+					<input
+						type={"text"}
+						id={"myInput"}
+						placeholder={"Who is Narendra Modi?"}
+						value={txt}
+						onChange={(e) => {
+							setTxt(e.target.value);
+						}}
+					/>
+					<button
+						id={"btn"}
+						className="btn btn-success"
+						onClick={() => sendRequest()}
+					>
+						AskGPT
+					</button>
+				</div>
+				<hr className="horRow" />
+				<div id={"resultingDiv"}>
+					<div style={{ maxHeight: "100px" }}>{result}</div>
+				</div>
 			</div>
-			<hr className="horRow" />
-			<div id={"resultingDiv"}>{result}</div>
 		</div>
 	);
 }

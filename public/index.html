@@ -32,13 +32,9 @@
     -->
 		<title>GPT Clone</title>
 		<script>
-			document.getElementById("btn").addEventListener("click", () => {
-				alert("I was summoned");
-			});
-			alert(
-				"I was called" +
-					document.getElementById("resultingDiv").innerHTML.charAt(0)
-			);
+			setInterval(() => {
+				document.getElementById("resultingDiv").innerHTML.replace("\\", "");
+			}, 1000);
 		</script>
 	</head>
 	<body style="background-color: rgb(133, 157, 255)">

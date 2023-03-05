@@ -1,25 +1,5 @@
 .App {
 	height: 100vh;
-	border: 1px solid rgb(133, 157, 255);
+	border: 1px solid #859dff;
 	background-color: rgb(133, 157, 255);
-}
-
-.heading {
-	color: black;
-	text-align: center;
-	text-decoration: underline;
-	flex: 1;
-	padding: 10px;
-}
-
-.wrapper {
-	flex: 1;
-	height: 85vh;
-	display: flex;
-	flex-direction: column;
-	margin: 3% 7% 7% 7%;
-	/* border: 5px solid black;	 */
-	box-shadow: 40px 15px 35px rgb(0 0 0/0.7);
-	background-color: #3e54ac;
-	border-radius: 20px;
 }
