@@ -27,9 +27,8 @@ function Caller() {
 				}
 			)
 			.then((res) => {
-				var ans = JSON.stringify(res.data.choices[0].message.content);
-				ans = ans.replaceAll('"', "");
-				ans = ans.replaceAll("\n", "");
+				var ans = res.data.choices[0].message.content;
+				ans = ans.trim(4);
 				setResult(ans);
 			})
 			.catch((err) => {
@@ -66,7 +65,7 @@ function Caller() {
 				</div>
 				<hr className="horRow" />
 				<div id={"resultingDiv"}>
-					<div style={{ maxHeight: "100px" }}>{result}</div>
+					<pre id={"textHolder"}>{result}</pre>
 				</div>
 			</div>
 		</div>
