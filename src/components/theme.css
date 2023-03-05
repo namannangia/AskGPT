@@ -4,13 +4,15 @@
 
 .btn {
 	flex: 1;
+	height: 6%;
+	align-self: center;
 	margin: 2%;
 	font-size: 16px;
 	padding: 5px;
 }
 
 #mainDiv {
-	flex: 15;
+	flex: 40;
 }
 
 .horRow {
