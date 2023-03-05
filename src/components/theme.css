@@ -1,0 +1,38 @@
+#upperDiv {
+	display: flex;
+}
+
+.btn {
+	flex: 1;
+	margin: 2%;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.horRow {
+	border: 2px solid black;
+}
+
+#myInput {
+	flex: 10;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: 20px;
+	font-size: 20px;
+	padding: 5px;
+	outline: none;
+	background-color: #e1eedd;
+	color: #157347;
+}
+
+#myInput::placeholder {
+	color: #9dc08b;
+	font-weight: lighter;
+}
+
+#resultingDiv {
+	text-align: left;
+	border: 1px solid black;
+	margin: 10px;
+}
