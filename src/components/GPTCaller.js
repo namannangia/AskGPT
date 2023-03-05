@@ -3,6 +3,7 @@ import axios from "axios";
 import "./theme.css";
 
 function Caller() {
+	var key = process.env.REACT_APP_API_KEY;
 	const [txt, setTxt] = useState("");
 	const [result, setResult] = useState("");
 
@@ -21,8 +22,7 @@ function Caller() {
 				},
 				{
 					headers: {
-						Authorization:
-							"Bearer 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",
+						Authorization: "Bearer " + key,
 					},
 				}
 			)
