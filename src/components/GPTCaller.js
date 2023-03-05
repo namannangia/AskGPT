@@ -68,7 +68,7 @@ function Caller() {
 					<pre
 						id={"textHolder"}
 						style={{
-							maxHeight: window.innerWidth < 500 ? "45vh" : "55vh",
+							maxHeight: window.innerWidth < 500 ? "40vh" : "55vh",
 						}}
 					>
 						{result}
