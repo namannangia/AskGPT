@@ -41,7 +41,7 @@ function Caller() {
 		<div
 			className="wrapper"
 			style={{
-				height: window.innerHeight < 500 ? "70vh" : "85vh",
+				height: window.innerWidth < 500 ? "70vh" : "85vh",
 			}}
 		>
 			<h3 className="heading">AskGPT</h3>
