@@ -38,7 +38,12 @@ function Caller() {
 	}
 
 	return (
-		<div className="wrapper">
+		<div
+			className="wrapper"
+			style={{
+				height: window.innerHeight < 500 ? "70vh" : "85vh",
+			}}
+		>
 			<h3 className="heading">AskGPT</h3>
 			<div id="mainDiv">
 				<div id={"upperDiv"}>
