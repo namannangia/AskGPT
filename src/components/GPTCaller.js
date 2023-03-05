@@ -65,7 +65,14 @@ function Caller() {
 				</div>
 				<hr className="horRow" />
 				<div id={"resultingDiv"}>
-					<pre id={"textHolder"}>{result}</pre>
+					<pre
+						id={"textHolder"}
+						style={{
+							maxHeight: window.innerWidth < 500 ? "40vh" : "55vh",
+						}}
+					>
+						{result}
+					</pre>
 				</div>
 			</div>
 		</div>
