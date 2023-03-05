@@ -1,8 +1,7 @@
 .App {
 	height: 100vh;
-	width: 100vw;
-	border: 1px solid black;
-	background-color: #839cff;
+	border: 1px solid rgb(133, 157, 255);
+	background-color: rgb(133, 157, 255);
 }
 
 .heading {
@@ -15,12 +14,12 @@
 
 .wrapper {
 	flex: 1;
-	height: 80vh;
+	height: 85vh;
 	display: flex;
 	flex-direction: column;
 	margin: 3% 7% 7% 7%;
-	border: 5px solid black;
-	box-shadow: 20px 10px 30px rgb(0 0 0);
+	/* border: 5px solid black;	 */
+	box-shadow: 40px 15px 35px rgb(0 0 0/0.7);
 	background-color: #3e54ac;
 	border-radius: 20px;
 }
