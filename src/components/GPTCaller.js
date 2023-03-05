@@ -49,7 +49,11 @@ function Caller() {
 						setTxt(e.target.value);
 					}}
 				/>
-				<button className="btn btn-success" onClick={() => sendRequest()}>
+				<button
+					id={"btn"}
+					className="btn btn-success"
+					onClick={() => sendRequest()}
+				>
 					AskGPT
 				</button>
 			</div>

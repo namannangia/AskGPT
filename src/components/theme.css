@@ -13,6 +13,7 @@
 
 #mainDiv {
 	flex: 40;
+	height: 100vh;
 }
 
 .horRow {
@@ -26,22 +27,23 @@
 	border-radius: 20px;
 	margin: 20px;
 	font-size: 20px;
-	padding: 5px;
+	padding: 5px 5px 5px 15px;
 	outline: none;
 	background-color: #e1eedd;
-	color: #157347;
+	color: #3e54ac;
 }
 
 #myInput::placeholder {
-	color: #9dc08b;
+	color: #b0b8d8;
 	font-weight: lighter;
 }
 
 #resultingDiv {
 	text-align: left;
 	padding: 5px;
-	height: 70vh;
-	background-color: hwb(31 19% 4%);
+	height: 75%;
+	background-color: #655dbb;
 	border: 2px solid black;
+	border-radius: 0px 0px 20px 20px;
 	margin: 10px;
 }

@@ -31,6 +31,15 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 		<title>GPT Clone</title>
+		<script>
+			document.getElementById("btn").addEventListener("click", () => {
+				alert("I was summoned");
+			});
+			alert(
+				"I was called" +
+					document.getElementById("resultingDiv").innerHTML.charAt(0)
+			);
+		</script>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
